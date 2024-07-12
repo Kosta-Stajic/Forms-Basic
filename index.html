@@ -1,53 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Forms Basic</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms Basic</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    <div class="left">
-        <div class="background-image">
-            <img src="images/halie-west-25xggax4bSA-unsplash.jpg" alt="" srcset="">
-        </div>
-        <div class="odin-image">
-            <img src="images/odin-lined.png" alt="" srcset="">
-        </div>
+  <div class="left">
+    <div class="odin-container">
+      <div class="odin-image">
+        <img src="images/odin-lined.png" alt="" srcset="">
+      </div>
+      <p>ODIN</p>
     </div>
-    <div class="right">
-        <p>This is not a real online service! You know you need something in your life to help you realize your deepest dreams.Sign up now to get started. You know you want to</p>
-        <h1>Let's do this!</h1>
+  </div>
+  <div class="right">
+    <div class="paragraphs">
+    <p class="first-line">This is not a real online service! You know you need something like this in your life to help you
+      realize your deepest dreams. Sign up now to get started. </p>
+    <p class="second-line">You know you want to.</p>
+  </div>
+        <p class="call-to-action">Let's do this!</p>
         <div class="forms">
+      <div class="forms-left">
         <form action="example.com/path" method="post">
-            <label for="first_name">First Name:</label>
-            <input type="text" id="first_name">
-          </form>
-          <form action="example.com/path" method="post">
-            <label for="last_name">Last Name:</label>
-            <input type="text" id="last_name">
-          </form>
-          <form action="example.com/path" method="post">
-            <label for="user_email">Email:</label>
-            <input type="text" id="user_email">
-          </form>
-          <form action="example.com/path" method="post">
-            <label for="phone_number">Phone Number:</label>
-            <input type="text" id="phone_number">
-          </form>
-          <form action="example.com/path" method="post">
-            <label for="user_password">Password:</label>
-            <input type="text" id="user_password">
-          </form>
-          <form action="example.com/path" method="post">
-            <label for="confirm_password">Confirm Password:</label>
-            <input type="text" id="confirm_password">
-          </form>
-        </div>
-        <div class="right-footer">
-            <button>Create Account</button>
-            <p>Already have an account? Log in</p>
-        </div>
+          <label for="first_name">First Name:</label>
+          <input type="text" id="first_name">
+        </form>
+        <form action="example.com/path" method="post">
+          <label for="phone_number">Phone Number:</label>
+          <input type="text" id="phone_number">
+        </form>
+        <form action="example.com/path" method="post">
+          <label for="user_password">Password:</label>
+          <input type="password" id="user_password">
+        </form>
+      </div>
+      <div class="forms-right">
+        <form action="example.com/path" method="post">
+          <label for="last_name">Last Name:</label>
+          <input type="text" id="last_name">
+        </form>
+        <form action="example.com/path" method="post">
+          <label for="user_email">Email:</label>
+          <input type="text" id="user_email">
+        </form>
+        <form action="example.com/path" method="post">
+          <label for="confirm_password">Confirm Password:</label>
+          <input type="password" id="confirm_password">
+        </form>
+      
+      </div>
     </div>
+    <div class="submit">
+      <button>Create Account</button>
+      <p class="log-in">Already have an account? Log in</p>
+    </div>
+  </div>
 </body>
+
 </html>
